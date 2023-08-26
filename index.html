@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Typing Game</title>
+</head>
+<body>
+    
+    <div id="game" class="container">
+        <div class="question">
+            <span id="entered" class="marker"></span>
+            <span id="remained">JavaScript</span>
+        </div>
+        <input type="text" class="text" id="inputText">
+    </div>
+
+    <div id="message" class="container hidden">
+        <div class="message">
+            Game Complete! <br>
+            <button id="replay" class="btn">Play again</button>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
